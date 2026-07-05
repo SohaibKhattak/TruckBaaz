@@ -16,21 +16,11 @@ public class AudioManager : MonoBehaviour
 
     void Awake()
     {
-        // Make AudioManager persist between scenes
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        instance = this;
     }
 
     void Start()
     {
-        // Play background music automatically
         if (backgroundMusic != null)
         {
             musicSource.clip = backgroundMusic;

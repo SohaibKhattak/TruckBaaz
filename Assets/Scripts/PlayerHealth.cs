@@ -7,10 +7,18 @@ public class PlayerHealth : MonoBehaviour
     private bool isInvincible = false;
 
     void Start()
+{
+    lives = 3;
+    isInvincible = false;
+    
+    if (UIManager.instance != null)
     {
-        if (UIManager.instance != null)
-            UIManager.instance.UpdateLives(lives);
+        UIManager.instance.UpdateLives(lives);
+        UIManager.instance.UpdateScore(0);
+        UIManager.instance.UpdateHighScore(
+            PlayerPrefs.GetInt("HighScore", 0));
     }
+}
 
     void OnCollisionEnter(Collision collision)
     {

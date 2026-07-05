@@ -8,11 +8,12 @@ public class ScoreManager : MonoBehaviour
     private float timer;
 
     void Awake()
-    {
-        instance = this;
-        // Load saved high score
-        highScore = PlayerPrefs.GetInt("HighScore", 0);
-    }
+{
+    instance = this;
+    score = 0;
+    timer = 0f;
+    highScore = PlayerPrefs.GetInt("HighScore", 0);
+}
 
     void Update()
     {
