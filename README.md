@@ -126,3 +126,64 @@ This game was designed following game design theory:
 ---
 
 ## 📁 Project Structure
+Truck Baaz/
+├── Assets/
+│   ├── Scripts/
+│   │   ├── PlayerMovement.cs
+│   │   ├── PlayerHealth.cs
+│   │   ├── ObstacleSpawner.cs
+│   │   ├── ObstacleMover.cs
+│   │   ├── CollectibleSpawner.cs
+│   │   ├── Collectible.cs
+│   │   ├── ScoreManager.cs
+│   │   ├── UIManager.cs
+│   │   ├── AudioManager.cs
+│   │   ├── GameOverManager.cs
+│   │   ├── MainMenuManager.cs
+│   │   ├── CameraShake.cs
+│   │   └── TreeSpawner.cs
+│   ├── Prefabs/
+│   │   ├── Bus
+│   │   ├── Barrier
+│   │   ├── ChaiCup
+│   │   ├── Star
+│   │   ├── Flower
+│   │   └── Tree
+│   ├── Scenes/
+│   │   ├── MainMenu
+│   │   ├── GameScene
+│   │   └── GameOver
+│   └── Sounds/
+├── ProjectSettings/
+└── README.md
+
+---
+
+## 🎓 Academic Information
+
+**Project:** Game Design — Semester Project
+**Institution:** UET Peshawar
+**Student:** Sohaib
+**Year:** 2026
+
+---
+
+## 🚀 How To Run
+
+1. Download the repository
+2. Open **TruckBaaz Build** folder
+3. Double click **Truck Baaz.exe**
+4. Click **Play** on main menu
+5. Enjoy the game!
+
+---
+
+## 📝 License
+
+This project was created for academic purposes at UET Peshawar.
+Free assets used from Unity Asset Store under their respective licenses.
+Sound assets licensed from Envato Elements.
+
+---
+
+*Made with ❤️ for Pakistani Culture*
